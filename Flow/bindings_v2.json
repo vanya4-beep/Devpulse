@@ -1,0 +1,43 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "connection",
+      "key": "",
+      "id": "connection",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "ImplicitConnection",
+          "isExpression": false,
+          "displayName": "uipath-uipath-http connection"
+        }
+      },
+      "metadata": {
+        "ActivityName": "HTTP Request",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "uipath-uipath-http connection",
+        "UseConnectionService": "true",
+        "Connector": "uipath-uipath-http"
+      }
+    },
+    {
+      "resource": "connection",
+      "key": "efff0fdd-7e15-4031-a0bb-5ab53cc2dd50",
+      "id": "connectionefff0fdd-7e15-4031-a0bb-5ab53cc2dd50",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "efff0fdd-7e15-4031-a0bb-5ab53cc2dd50",
+          "isExpression": false,
+          "displayName": "uipath-google-gmail connection"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Send Email",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "uipath-google-gmail connection",
+        "UseConnectionService": "true",
+        "Connector": "uipath-google-gmail"
+      }
+    }
+  ]
+}

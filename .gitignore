@@ -1,0 +1,36 @@
+
+# UiPath local artifacts
+.local/
+**/.local/
+
+# Private connections and credentials
+resources/solution_folder/connection/
+
+# Debug and temporary files
+**/debug_overwrites.json
+*.log
+*.tmp
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Private key files
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating system clutter
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+
+# User-specific configuration
+resources/solution_folder/userProfile/
+
+# Environment-specific process descriptor
+resources/solution_folder/process/flow/Flow.json

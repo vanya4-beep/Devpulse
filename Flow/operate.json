@@ -1,0 +1,12 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/operate",
+  "projectId": "a8115ebb-dd5b-4426-8826-fd42d3091028",
+  "main": "content/new.bpmn#manualTrigger1",
+  "contentType": "Flow",
+  "targetFramework": "Portable",
+  "runtimeOptions": {
+    "requiresUserInteraction": false,
+    "isAttended": false,
+    "profile": "Standard"
+  }
+}
